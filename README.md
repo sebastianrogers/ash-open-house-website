@@ -13,6 +13,7 @@ This is a static website built for GitHub Pages, designed to provide information
 - Events calendar
 - Contact information
 - Accessibility-focused HTML structure
+- QR code in footer for easy mobile access
 
 ## Deployment
 
@@ -46,6 +47,20 @@ To customize the website:
 - Modify `styles.css` to change colors, fonts, and layout
 - Update event information in the Events section
 - Change contact details in the Contact section
+
+### Regenerating the QR Code
+
+If you need to regenerate the QR code (e.g., after changing the website URL):
+
+```bash
+# Install required Python package
+pip install qrcode[pil]
+
+# Run the QR code generator script
+python3 generate_qr_code.py
+```
+
+This will create/update the `website-qr-code.png` file that displays in the footer.
 
 ## License
 
