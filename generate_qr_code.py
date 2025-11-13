@@ -7,7 +7,7 @@ This script generates a QR code that links to the website.
 import qrcode
 
 # Website URL
-WEBSITE_URL = "https://sebastianrogers.github.io/ash-open-house-website/"
+WEBSITE_URL = "https://ashopenhouse.uk/"
 
 # Output file path
 OUTPUT_FILE = "website-qr-code.png"
