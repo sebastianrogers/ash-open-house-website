@@ -189,6 +189,22 @@ section h2 {
     margin-top: 1rem;
 }
 
+.past-events-heading {
+    font-size: 1.5rem;
+    color: var(--text-light);
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.past-event-card {
+    opacity: 0.7;
+}
+
+.past-event-card h3 {
+    color: var(--text-light);
+}
+
 /* Contact Section */
 .contact-content {
     max-width: 700px;
