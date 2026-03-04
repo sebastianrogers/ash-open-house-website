@@ -172,6 +172,16 @@ section h2 {
     line-height: 1.6;
 }
 
+.event-card a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.event-card a:hover {
+    text-decoration: underline;
+}
+
 .event-note {
     text-align: center;
     font-style: italic;
