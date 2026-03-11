@@ -73,6 +73,54 @@
         .back-link:hover {
             text-decoration: underline;
         }
+        .programme-section {
+            background-color: var(--light-bg);
+            border-radius: 8px;
+            padding: 2rem;
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        .programme-section h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.75rem;
+            color: var(--primary-color);
+        }
+        .programme-section p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+        }
+        .programme-link {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: var(--white);
+            padding: 0.6rem 1.25rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        .programme-link:hover {
+            opacity: 0.85;
+        }
+        .programme-qr {
+            text-align: center;
+            flex-shrink: 0;
+        }
+        .programme-qr img {
+            width: 140px;
+            height: 140px;
+            display: block;
+            margin: 0 auto 0.5rem;
+        }
+        .programme-qr p {
+            font-size: 0.85rem;
+            color: var(--secondary-color);
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -112,6 +160,17 @@
                         <p>The hours are running out, but even as night falls, a strange hope is wrapped in a secret that both strangers share. For this is the house of Lazarus, and under his roof, the impossible has already occurred&hellip;</p>
                         <p>Brought to you by Riding Lights Theatre Company, <em>Night Falls</em> is a fresh, vivid and dynamic retelling of the Easter story &mdash; a powerful new drama, featuring an original score from Nikki Crowley.</p>
                         <p>As one of the UK&rsquo;s most established independent theatre companies (founded in 1977), Riding Lights Theatre Company continues to take innovative, accessible theatre into all kinds of communities far and wide. Recent work includes <em>His Last Report</em> (4* The Guardian) and last year&rsquo;s passion podcast <em>The Passion</em> which was told over a series of 8 episodes and reached a global audience. Our mission is to make theatre make a difference by creating unforgettable, entertaining theatre in response to current issues and the hopes and fears of the world we share.</p>
+                        <div class="programme-section">
+                            <div class="programme-text">
+                                <h3>Event Programme</h3>
+                                <p>View or download the full programme for the Night Falls performance.</p>
+                                <a href="https://github.com/sebastianrogers/ash-open-house-website/blob/main/RLTC-NightFalls-Programme-PRINT.pdf" target="_blank" rel="noopener noreferrer" class="programme-link">View Programme (PDF)</a>
+                            </div>
+                            <div class="programme-qr">
+                                <img src="programme-qr-code.png" alt="QR code linking to the Night Falls programme PDF">
+                                <p>Scan for the programme</p>
+                            </div>
+                        </div>
                         <a href="/#events" class="back-link">&larr; Back to Events</a>
                     </div>
                 </div>
